@@ -389,6 +389,7 @@ RegisterNUICallback('select', function(data, cb)
             options:wipe()
         else
             state.setNuiFocus(false)
+            state.setActive(false)
         end
 
         currentTarget.zone = zone?.id
